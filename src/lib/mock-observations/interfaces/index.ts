@@ -8,3 +8,4 @@ export interface Generator {
 	*/
 	next(historical: Object[]): Object;
 }
+export default Generator;
